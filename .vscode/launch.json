@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Deli · Android emulator",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "toolArgs": [
+        "--dart-define=API_BASE_URL=http://10.0.2.2:8000/api/v1/"
+      ]
+    },
+    {
+      "name": "Deli · Windows",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "windows",
+      "program": "lib/main.dart",
+      "toolArgs": [
+        "--dart-define=API_BASE_URL=http://localhost:8000/api/v1/"
+      ]
+    },
+    {
+      "name": "Deli · Web",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "program": "lib/main.dart",
+      "toolArgs": [
+        "--web-port=5173",
+        "--dart-define=API_BASE_URL=http://localhost:8000/api/v1/"
+      ]
+    }
+  ]
+}
