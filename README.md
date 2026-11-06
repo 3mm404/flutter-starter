@@ -1,10 +1,14 @@
-# Deli · Flutter
+# Flutter Starter · Deli
 
-Base funcional para login, sesión y personalización, preparada sobre el proyecto nuevo app_1. No se modificó ubiteV2 ni kitton.
+Base Flutter para aplicaciones con autenticación REST. Incluye inicio de sesión, restauración de sesión, almacenamiento seguro del token y preferencias de idioma, tema y paleta.
+
+Para explorar la interfaz, ejecuta la app en Chrome con la configuración de la sección siguiente. La pantalla de inicio de sesión sirve como punto de partida. La navegación a Home requiere una API compatible y credenciales válidas.
+
+![Pantalla de inicio de sesión de Flutter Starter en navegador](docs/capturas/inicio-de-sesion.png)
 
 ## Ejecutar
 
-SDK utilizado: Flutter 3.47.7 / Dart 3.13.5. El ejecutable local está en C:\Develop\SDK-FLUTTER\flutter\bin; añádelo al PATH o usa su ruta completa en PowerShell.
+SDK utilizado: Flutter 3.47.7 / Dart 3.13.5. Instala ese SDK y añade su directorio `bin` al PATH.
 
 Desde esta carpeta:
 
